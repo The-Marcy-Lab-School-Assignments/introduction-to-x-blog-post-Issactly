@@ -5,9 +5,9 @@ By Issac Bien-Aime
 ## Introduction
 Hello world! If you have experience with JavaScript or Python, Luau may be the next coding language for you.
 
-I have been using Luau for about a month now and I can confidently say its a deep, fun and accessible language, especially for the youth. But what is Luau? Well the language praised for its easy to understand format and similarity to Python, is actually called Lua and was developed in 1993 by professors at the Pontifical Catholic University of Rio de Janeiro. They didn't have access to software outside of Brazil so they instead created they're own. Inspired by Simple Object and data entry languages or SOL's and DEL's Lua went on to be used for things such as games, tools and apps in places big and small.
+I have been using Luau for about a month now with a background in JavaScript and I can confidently say its a deep, fun and accessible language, especially for the youth. But what is Luau? Well the language praised for its easy to understand format and similarity to Python, is actually called Lua and was developed in 1993 by professors at the Pontifical Catholic University of Rio de Janeiro. They didn't have access to software outside of Brazil so they instead created they're own. Inspired by Simple Object and data entry languages or SOL's and DEL's Lua went on to be used for things such as games, tools and apps in places big and small.
 
-Luau in specific is a *derivative* of Lua enhanced to work perfectly for the Roblox Studio and Roblox Engine. In this short blog, I'd like to go over some methods and syntax to compare and contrast between JavaScript and Luau.
+Luau in specific is a *derivative* of Lua enhanced to work perfectly for the Roblox Studio and Roblox Engine. In this short blog, I'd like to go over some methods and syntax to compare and contrast between JavaScript and Luau, to show how quickly it is to learn Luau.
 
 Heres some data types that JavaScript shares with Luau:
 - Numbers

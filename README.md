@@ -1,27 +1,75 @@
-# Blog Title
+# Get multilingual with Lua/Luau
+By Issac Bien-Aime
 
-By [your name]
-
-(Customize these headings!)
 
 ## Introduction
+Hello world! If you have experience with JavaScript or Python, Luau may be the next coding language for you.
 
-* Why should someone learn the language/framework that you are learning?
-* What is it used for? How popular is it? Who is it for (developers or users)?
-* Incorporate real-world analogies when appropriate and useful.
+I have been using Luau for about a month now with a background in JavaScript and I can confidently say its a deep, fun and accessible language, especially for the youth. But what is Luau? Well the language praised for its easy to understand format and similarity to Python, is actually called Lua and was developed in 1993 by professors at the Pontifical Catholic University of Rio de Janeiro. They didn't have access to software outside of Brazil so they instead created they're own. Inspired by Simple Object and data entry languages or SOL's and DEL's Lua went on to be used for things such as games, tools and apps in places big and small.
 
-## Core syntax/features. 
+Luau in specific is a *derivative* of Lua enhanced to work perfectly for the Roblox Studio and Roblox Engine. In this short blog, I'd like to go over some methods and syntax to compare and contrast between JavaScript and Luau, to show how quickly it is to learn Luau.
 
-* For programming languages: data types, variables, code blocks, functions, conditionals, arrays and objects, and iteration. Include code snippets with explanations.
+Heres some data types that JavaScript shares with Luau:
+- Numbers
+- Booleans (True/False. Luau heavily uses these.)
+- Null/Nil (JavaScript uses Null to define an empty value while Luau uses Nil.)
+- Strings
 
-* For frameworks (including React and Express): setup/installation/configurations, core concepts, key methods or approaches. Include code snippets with explanations.
+Like JavaScript, Luau has comments both multi-line and single.
+```js
+//JavaScript
+// This is a single line comment!
+console.log("Hello World")
+/* This is
+a multi-line
+comment! */
+```
 
-## Compare and Contrast
+```Luau
+--Luau
+-- This is a single line comment!
+print("Hello World")
+--[[ This is
+a multi-line
+comment! ]]
+```
 
-* For programming languages: What are the key differences between the new language and JavaScript? What are the commonalities?
-* For frameworks (including React and Express): What are the alternatives to this framework? Can you compare this framework to anything we've learned in the Core Curriculum? What are the tradeoffs when choosing this framework compared to the alternatives?
+The main difference being how to begin and end the comments. Note how while the beginning of a multi-line Luau comment goes `--[[` the ending only uses two closing brackets `]]`
 
-## Conclusion & Tips for learning this language/framework.
+I also included how to log/print to the console. JavaScript uses `console.log()` while Luau uses `print()`. Both function exactly the same and can display integers, strings, arrays and more to the output. (Python is most similar to Luau with its `print()` syntax being identical)
 
-* Wrap things up
-* Provide links to resources that you used to help you learn the language.
+Functions in Luau are quite simple like JavaScript:
+```luau
+--Luau
+function add(a, b)
+    return a + b
+end
+```
+
+```js
+//JavaScript
+function add(a, b) {
+    return a + b
+}
+```
+You can almost see `function` and `end` as the curly brackets in way! As with both JavaScript and Luau, you can have anonymous functions or named. Moving on, lets look at an example of a for loop. At the same time we'll go into arrays. (In Luau you create tables which can be used as arrays or dictionaries.)
+
+This for loop will push numbers into an array:
+```luau
+--Luau
+local numbers = {} --create an empty table
+for i = 1, 10 do --for loop
+numbers[#numbers+1] = i --push the current number to the array
+end
+```
+```js
+//JavaScript
+lets numbers = [] //create an empty array
+for (let i = 1; i >= 10; i++) { //for loop
+    numbers.push(i) //push the current number to the array
+}
+```
+Here we can see more of a difference between the two. The usage of the curly brackets and square. In JavaScript, curly brackets are used for objects and functions, while in Luau they're used in making tables and doing maths. Pushing to the arrays are also very different! In JavaScript we can append `.push`, a method that puts the value to a new and last place spot in the array. In Luau, you can specify the position of the added value. How convenient!
+
+If you're interested in exploring Lua or Luau I recommend this [Codecademy Course](<https://www.codecademy.com/enrolled/courses/learn-lua>)! As well as the [Roblox documentation](<https://create.roblox.com/docs>).
+To get started in Luau you'll need to download the [Roblox Studio app](<https://create.roblox.com/landing>) on a pc. There you will be set up with a workspace simillar to as if you set up Vscode or a Github codespace.

@@ -69,12 +69,7 @@ for (let i = 1; i >= 10; i++) { //for loop
     numbers.push(i) //push the current number to the array
 }
 ```
+Here we can see more of a difference between the two. The usage of the curly brackets and square. In JavaScript, curly brackets are used for objects and functions, while in Luau they're used in making tables and doing maths. Pushing to the arrays are also very different! In JavaScript we can append `.push`, a method that puts the value to a new and last place spot in the array. In Luau, you can specify the position of the added value. How convenient!
 
-
-If you're interested in exploring Lua or Luau I recommend this [Codecademy Course](<https://www.codecademy.com/enrolled/courses/learn-lua>)!
+If you're interested in exploring Lua or Luau I recommend this [Codecademy Course](<https://www.codecademy.com/enrolled/courses/learn-lua>)! As well as the [Roblox documentation](<https://create.roblox.com/docs>).
 To get started in Luau you'll need to download the Roblox Studio app on a desktop.
-
-
-## Core syntax/features. 
-
-* For programming languages: data types, variables, code blocks, functions, conditionals, arrays and objects, and iteration. Include code snippets with explanations.

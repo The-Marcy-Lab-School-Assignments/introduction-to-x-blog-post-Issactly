@@ -17,6 +17,7 @@ Heres some data types that JavaScript shares with Luau:
 
 Like JavaScript, Luau has comments both multi-line and single.
 ```js
+//JavaScript
 // This is a single line comment!
 console.log("Hello World")
 /* This is
@@ -25,6 +26,7 @@ comment! */
 ```
 
 ```Luau
+--Luau
 -- This is a single line comment!
 print("Hello World")
 --[[ This is
@@ -38,12 +40,14 @@ I also included how to log/print to the console. JavaScript uses `console.log()`
 
 Functions in Luau are quite simple like JavaScript:
 ```luau
+--Luau
 function add(a, b)
     return a + b
 end
 ```
 
 ```js
+//JavaScript
 function add(a, b) {
     return a + b
 }
@@ -52,12 +56,14 @@ You can almost see `function` and `end` as the curly brackets in way! As with bo
 
 This for loop will push numbers into an array:
 ```luau
+--Luau
 local numbers = {} --create an empty table
 for i = 1, 10 do --for loop
 numbers[#numbers+1] = i --push the current number to the array
 end
 ```
 ```js
+//JavaScript
 lets numbers = [] //create an empty array
 for (let i = 1; i >= 10; i++) { //for loop
     numbers.push(i) //push the current number to the array
